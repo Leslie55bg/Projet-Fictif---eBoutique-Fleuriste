@@ -6,22 +6,84 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <img src="img/logo/logo2.png"/>
-        <a href="navhome">home</a><a href="navproduit">produit</a><a href="navboutique">boutique</a><a href="navcontact">contact</a>
-      </nav>
-      <div class="entête">
+    <div class="container">
+     <header>
+        <nav>
+          <div class="logo">
+            <img src="img/logo/logo2.png"/>
+          </div>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#produit">Produit</a></li>
+            <li><a href="#store">Store<a/></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+<!---HOME---------------------------->
+      <section id="home">
+        <img src="img/water.jpg" alt="">
+          <div class="intro">
+            <h1>Rose Prévost, Votre fleuriste Boulonnaise</h1>
+            <p>«J’ai le plaisir de vous faire découvrir des fleurs plantes et arbustres de la région !</p>
+            <p>Passionnée, j’aime créer de belles compositions pour toutes occasions:<br>
+            mariage, anniversaire, hommage, naissance ...</p>
+            <p>Vous trouverez en boutique à Boulogne-sur-Mer,<br>
+            de véritables produits locaux provenant de mon jardin à La Capelle !</p>
+            <p>Fraîcheur, Qualité , Proximité ! »</p><br>
+            <button type="button1" class="button1"><a href="#produit">Découvrez nos plantes !</a></button>
+          </div>
+      </section>
+
+
+
+
+<!---PRODUIT-------------------------->
+      <section id="produit">
+        <h2>Nous vous proposons ...</h2>
+        <div class="bloc-produit">
+          <div class="herbes">
+            <img src="img/basil.jpg" alt="">
+            <h3>aromatique</h3>
+          </div>
+          <div class="fleurs">
+            <img src="img/flower7.jpg" alt="">
+            <!--- + slide apparition : img src="img/flower16.jpg"  + img src="img/flower21.jpg" + img src="img/flower4.jpg"--->
+            <h3>fleurs</h3>
+          </div>
+          <div class="plantation">
+            <img src="img/garden.jpg" alt="">
+            <!--- + slide apparition : img src="img/flower5.jpg"-->
+            <h3>plantes</h3>
+          </div>
+          <div class="composition">
+            <img src="img/flower17.jpg" alt="">
+            <!--- + slide apparition : img src="img/flower14.jpg" -->
+            <h3>compo</h3>
+          </div>
+        </div>
+      </section>
+
+<!---STORE------------------------------>
+      <section id="store">
+        <img src="img/flower18.jpg" alt="">
+        <div>
+          <h2>Notre boutique</h2>
+          <p>blablabla</p><br>
+          <p><a href=""> </a></p>
+        </div>
+      </section>
+
+<!---CONTACT---------------------------->
+      <section id="contact">
+      <div>
+        <img src="img/wood1.jpg" alt="">
+
       </div>
+      </section>
+<!---FOOTER---------------------------->
+      <footer><p>&copy;2017- Rose Prévost Fleuriste - Référent Digital Leslie</footer>
 
-
-      
-    </header>
-    <div class="produit">
-    </div>
-    <div class="contact">
-    </div>
-
-    <footer><p>&copy;2017- Rose Prévost Fleuriste - bye LeslieNetGyvers Simplon.co</footer>
+    </div> <!--- close container--->
   </body>
 </html>
