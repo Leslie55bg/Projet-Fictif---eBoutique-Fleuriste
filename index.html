@@ -6,22 +6,121 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <img src="img/logo/logo2.png"/>
-        <a href="navhome">home</a><a href="navproduit">produit</a><a href="navboutique">boutique</a><a href="navcontact">contact</a>
-      </nav>
-      <div class="entête">
-      </div>
+    <div class="container">
+     <header>
+        <nav>
+          <div class="logo">
+            <img src="img/logo/logo2b.png"/>
+          </div>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#produit">Produit</a></li>
+            <li><a href="#store">Store<a/></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+<!---HOME---------------------------->
+      <section id="home">
+        <img src="img/water.jpg" alt="">
+          <div class="intro">
+            <h1>Rose Prévost, Votre fleuriste Boulonnaise</h1>
+            <p>"Passionnée, j’aime créer de jolie compositions florales
+            pour tout évènement :
+            Mariage, anniversaire, hommage, naissance ...</p>
+            Agricultrice, je produits aussi des arbustes et aromates
+            provenant de notre jardin à La Capelle !</p>
+            <p>Fraîcheur, Qualité , Proximité,<br>
+            Venez découvrir notre boutique à Boulogne-sur-mer !"</p>
+            <button type="button" class="decouverte"><a href="#produit">Découvrez nos plantes</a></button>
+          </div>
+
+      </section>
 
 
-      
-    </header>
-    <div class="produit">
-    </div>
-    <div class="contact">
-    </div>
 
-    <footer><p>&copy;2017- Rose Prévost Fleuriste - bye LeslieNetGyvers Simplon.co</footer>
+
+<!---PRODUIT-------------------------->
+      <section id="produit">
+        <img class="imgprod" src="img/outdoor.jpg" alt="">
+        <h2>Nous vous proposons...</h2>
+          <div class="ligneprod">
+
+            <div class="prod">
+              <img src="img/basil.jpg" alt="">
+              <h3>Basilic- 1L</h3>
+              <div class="prix">  6.90 €</div>
+            </div>
+
+            <div class="prod">
+              <img class="fleur1" src="img/flower7.jpg" alt="">
+           <h3>La Rose</h3>
+              <div class="prix"> 1.50 €</div>
+            </div>
+
+            <div class="prod">
+              <img src="img/flower14.jpg" alt="">
+              <h3>Bouquet</h3>
+              <div class="prix">15.00 €</div>
+            </div>
+
+            <div class="prod">
+              <img src="img/flower16.jpg" alt="">
+              <h3>Découverte</h3>
+              <div class="prix">10.00 €</div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+<!---STORE------------------------------>
+      <section id="store">
+        <img src="img/garden.jpg" alt="">
+        <div>
+          <h2>Notre boutique</h2>
+          <p>Vous retrouverez toutes nos plantes provenant de La Capelle
+          directement dans notre boutique à Boulogne-Sur-Mer!</p>
+          <p>Rejoingez nous sur les réseaux sociaux, et partagez les info !</p>
+          <p class="reseau">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.pinterest.fr/" target="_blank"><i class="fab fa-pinterest-square fa-3x"></i></a></p><br>
+          <p><a class="addmail" href="rose-prevost@fleuriste-boulogne.fr">rose-prevost@fleuriste-boulogne.fr</a></p>
+        </div>
+      </section>
+
+<!---CONTACT---------------------------->
+      <section id="contact">
+        <div>
+          <form class="form" action="index.html" method="post">
+            <p>
+              <label for="pseudo"></label>
+              <input class="pseudo" type="text" name="pseudo" placeholder="Votre Nom" value="">
+            </p>
+            <p>
+              <label for="email"></label>
+              <input class="email" type="email" name="email" placeholder="Votre e-mail@gmail.com" value="">
+            </p>
+            <p>
+              <label for="message"></label>
+              <textarea class="message" name="message" rows="8" cols="80"placeholder="Votre message ..." ></textarea>
+            </p><br>
+            <button type="button" class="envoyer" name="Envoyer">Envoyer</button>
+            <!--ajouter  un url=() vour envoyer ??>--->
+          </form>
+        </div>
+      </section>
+<!---FOOTER---------------------------->
+      <footer><p>&copy;2017- Rose Prévost Fleuriste / Leslie BODIN GARCIA<a class="mention" href="page/mention-legale.html">mentions légales</a>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.pinterest.fr/" target="_blank"><i class="fab fa-pinterest-square fa-2x"></i></a></p>
+      </footer>
+    </div> <!--- close container--->
   </body>
 </html>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
