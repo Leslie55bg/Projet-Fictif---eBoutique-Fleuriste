@@ -14,17 +14,6 @@ body {
   background-image: url("../img/wood1.jpg");
 }
 
-/*
-grey rgb(128 128 128)
-rgb(105 105 105)
-
-pink rgb(255 192 203)
-hotpink rgb(255 105 180)
-deeppink rgb(255 20 147)
-
-lightgreen rgb(144 238 144)
-vert  rgb(39, 215, 46)
-rgb(50, 106, 0)
 /*********HEADER***************/
 nav {
   width: auto;
@@ -81,7 +70,6 @@ nav {
   left: 15%;
   top: 300px;
   background-color: rgba(255,255,255, 0.65);
-  /*-webkit-box-shadow: 2px 2px 10px gray;*/
   -webkit-box-shadow: 25px 25px 100px gray;
   padding-left: 16px;
   margin-left: -20px;
@@ -142,12 +130,10 @@ nav {
 #produit {
   width: 1000px;
   height: 700px;
-  /*background-color: rgba(255, 255, 255, 0.7);
-  */
   margin-top: 500px;
 }
 .imgprod {
-  opacity: 0.7;
+  opacity: 0.5;
   width: 1000px;
   height: 700px;
   position: absolute;
@@ -189,8 +175,7 @@ h3 {
   float: left;
   margin-top: 0;
   margin-bottom: 0;
-  /*position: absolute;*/
-  color: rgb(50, 106, 0);
+  color: rgb(85, 84, 84);
   font-family: Good-night;
 }
 
@@ -198,7 +183,7 @@ h3 {
   width: 70px;
   height: 30px;
   float: right;
-  background-color: rgb(255 105 180);
+  background-color: rgb(85, 84, 84);
   margin-top: 5px;
   color: white;
   padding-top: 10px;
@@ -287,7 +272,7 @@ svg:not(:root).svg-inline--fa {
   z-index: 3;
   margin-top: 164px;
   position: absolute;
-  background-image: url("../img/flower5.jpg");
+  background-image: url("../img/pattern4.jpg");
   -webkit-box-shadow: 6px 6px 30px black;
   padding: 20px;
 }
@@ -309,11 +294,7 @@ svg:not(:root).svg-inline--fa {
   border-radius: 0px;svg:not(:root).svg-inline--fa {
     overflow: visible;
 }
-  /*box-shadow: 2px 2px 10px black;
-  word-wrap: break-word;
-  padding: 5px 0px 5px 5px;
-  font-size: initial;
-  font-family: Good-night;*/
+
 }
 .envoyer {
   box-shadow: 2px 2px 10px black;
